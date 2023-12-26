@@ -1,0 +1,9 @@
+training:
+  epoch: 10
+  learning_rate: 0.003
+  batch_size: 32
+  weight_decay: 0.3
+  betas: "0.9 0.999"
+
+data:
+  url: "http://data.vision.ee.ethz.ch/cvl/food-101.tar.gz"

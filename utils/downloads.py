@@ -73,6 +73,6 @@ def unzip(path: Path):
             tar.extractall(extract_dir)
             print(f"Extracted to {extract_dir}")
 
-# if __name__ == '__main__':
-#     download(yaml_data['data']['url'])
+if __name__ == '__main__':
+    download(yaml_data['data']['url'], True)
     
